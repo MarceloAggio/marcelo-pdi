@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDI - Marcelo N. Aggio | Data Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 PDI - Plano de Desenvolvimento Individual</h1>
+            <p><strong>Marcelo N. Aggio</strong> | Data Engineer | Itaú Unibanco</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Atualizado em: Outubro 2025</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab active" onclick="openTab(event, 'overview')">📊 Visão Geral</button>
+            <button class="tab" onclick="openTab(event, 'projects-external')">🌐 Projetos Externos</button>
+            <button class="tab" onclick="openTab(event, 'projects-internal')">🏦 Projetos no Banco</button>
+            <button class="tab" onclick="openTab(event, 'career')">🎯 Mapa de Carreira</button>
+            <button class="tab" onclick="openTab(event, 'skills')">💻 Competências</button>
+            <button class="tab" onclick="openTab(event, 'gap')">📈 Plano de Ação</button>
+            <button class="tab" onclick="openTab(event, 'experience')">💼 Experiência</button>
+        </div>
+
+        <div class="content">
+            <!-- Visão Geral -->
+            <div id="overview" class="tab-content active">
+                <h2>Visão Geral do PDI</h2>
+                
+                <div class="card">
+                    <h3>👨‍💻 Perfil Profissional</h3>
+                    <p><strong>Cargo Atual:</strong> Data Engineer (Estagiário) - Itaú Unibanco</p>
+                    <p><strong>Período:</strong> Junho 2025 - Presente</p>
+                    <p><strong>Foco:</strong> Automações, Inteligência Artificial e pipelines de dados</p>
+                </div>
+
+                <div class="card">
+                    <h3>🎯 Objetivo de Carreira</h3>
+                    <p>Evolução na carreira de Ciência de Dados no Itaú Unibanco, seguindo o caminho:</p>
+                    <div style="margin-top: 20px; font-size: 1.2em; text-align: center;">
+                        <strong>Estagiário → Cientista de Dados 1 → Cientista de Dados 2 → Cientista de Dados 3</strong>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🔥 Principais Paixões</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Pandas</div>
+                        <div class="skill-item">Agentes Inteligentes</div>
+                        <div class="skill-item">Clusterização</div>
+                        <div class="skill-item">Vetorização</div>
+                        <div class="skill-item">Soluções Escaláveis</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projetos Externos -->
+            <div id="projects-external" class="tab-content">
+                <h2>🌐 Projetos Desenvolvidos Fora do Banco</h2>
+                
+                <div class="project-card card">
+                    <h3>🔗 Integração com Google Drive</h3>
+                    <p><strong>Descrição:</strong> Desenvolvimento de integração completa com API do Google Drive para gestão e sincronização de arquivos.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Next.js</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Google Drive API</span>
+                        <span class="tech-badge">OAuth 2.0</span>
+                    </div>
+                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Automação de processos de upload, download e organização de documentos empresariais.</p>
+                </div>
+
+                <div class="project-card card">
+                    <h3>📋 Integração com Trello</h3>
+                    <p><strong>Descrição:</strong> Sistema de sincronização e automação de tarefas entre aplicação web e Trello.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Next.js</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Trello API</span>
+                        <span class="tech-badge">Webhooks</span>
+                    </div>
+                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Otimização do gerenciamento de projetos e acompanhamento de atividades em tempo real.</p>
+                </div>
+
+                <div class="project-card card">
+                    <h3>💼 Integração com PipeDrive</h3>
+                    <p><strong>Descrição:</strong> Desenvolvimento de integração com CRM PipeDrive para automação de vendas e gestão de leads.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Next.js</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">PipeDrive API</span>
+                        <span class="tech-badge">REST API</span>
+                    </div>
+                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Automatização do funil de vendas e sincronização de dados de clientes.</p>
+                </div>
+
+                <div class="project-card card">
+                    <h3>📊 Integração com RD Station</h3>
+                    <p><strong>Descrição:</strong> Sistema de marketing automation integrado com RD Station para gestão de leads e campanhas.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Next.js</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">RD Station API</span>
+                        <span class="tech-badge">Marketing Automation</span>
+                    </div>
+                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Automatização de campanhas de marketing e nutrição de leads.</p>
+                </div>
+
+                <div class="card" style="background: #e7f3ff; border-left-color: #2196F3;">
+                    <h3>📦 Stack Técnico dos Projetos</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Frontend:</strong> Next.js, React.js, HTML5, CSS3</li>
+                        <li><strong>Backend:</strong> Node.js, Express.js</li>
+                        <li><strong>Banco de Dados:</strong> MySQL, Prisma.js, MongoDB</li>
+                        <li><strong>DevOps:</strong> Docker, Docker Compose</li>
+                        <li><strong>APIs:</strong> REST, OAuth 2.0, Webhooks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Projetos Internos -->
+            <div id="projects-internal" class="tab-content">
+                <h2>🏦 Projetos Desenvolvidos no Itaú Unibanco</h2>
+                
+                <div class="project-card card">
+                    <h3>🤖 Pipelines de Dados com Python</h3>
+                    <p><strong>Descrição:</strong> Desenvolvimento de pipelines robustos para ingestão, transformação e análise de grandes volumes de dados.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">Apache Airflow</span>
+                        <span class="tech-badge">SQL</span>
+                    </div>
+                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Automação de processos de ETL e redução de tempo de processamento de dados.</p>
+                </div>
+
+                <div class="project-card card">
+                    <h3>🎯 Modelos de Clusterização</h3>
+                    <p><strong>Descrição:</strong> Implementação de modelos de clusterização para segmentação de clientes e análise de comportamento.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">K-Means</span>
+                        <span class="tech-badge">Scikit-learn</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Pandas</span>
+                    </div>
+                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Identificação de padrões de comportamento e segmentação estratégica de clientes.</p>
+                </div>
+
+                <div class="project-card card">
+                    <h3>🧠 Vetorização e Embeddings</h3>
+                    <p><strong>Descrição:</strong> Desenvolvimento de sistemas de vetorização para análise semântica e busca inteligente.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Embeddings</span>
+                        <span class="tech-badge">NLP</span>
+                        <span class="tech-badge">Vector Databases</span>
+                    </div>
+                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Melhoria na busca e recuperação de informações relevantes.</p>
+                </div>
+
+                <div class="project-card card">
+                    <h3>⚡ Automação de Processos com IA</h3>
+                    <p><strong>Descrição:</strong> Criação de automações inteligentes utilizando IA para otimização de workflows.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Agentes Inteligentes</span>
+                        <span class="tech-badge">Machine Learning</span>
+                        <span class="tech-badge">APIs</span>
+                    </div>
+                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Redução de trabalho manual e aumento da eficiência operacional.</p>
+                </div>
+
+                <div class="card" style="background: #e8f5e9; border-left-color: #4CAF50;">
+                    <h3>🎯 Resultados e Aprendizados</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Desenvolvimento de habilidades avançadas em Python e análise de dados</li>
+                        <li>Experiência prática com modelos de Machine Learning em produção</li>
+                        <li>Compreensão profunda de arquiteturas de dados escaláveis</li>
+                        <li>Integração de soluções de IA em processos corporativos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Mapa de Carreira -->
+            <div id="career" class="tab-content">
+                <h2>🎯 Mapa de Carreira em Ciência de Dados</h2>
+                
+                <div class="career-path">
+                    <div class="career-step current">
+                        <h4>📍 Posição Atual</h4>
+                        <p><strong>Estagiário</strong></p>
+                        <p style="font-size: 0.9em; margin-top: 5px;">Data Engineer</p>
+                        <p style="font-size: 0.8em; color: #ccc;">Jun 2025 - Presente</p>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="career-step">
+                        <h4>🎯 Próximo Passo</h4>
+                        <p><strong>Cientista de Dados 1</strong></p>
+                        <p style="font-size: 0.9em; margin-top: 5px;">Data Scientist I</p>
+                        <p style="font-size: 0.8em;">Meta: 2026</p>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="career-step">
+                        <h4>🚀 Médio Prazo</h4>
+                        <p><strong>Cientista de Dados 2</strong></p>
+                        <p style="font-size: 0.9em; margin-top: 5px;">Data Scientist II</p>
+                        <p style="font-size: 0.8em;">Meta: 2027-2028</p>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="career-step">
+                        <h4>⭐ Longo Prazo</h4>
+                        <p><strong>Cientista de Dados 3</strong></p>
+                        <p style="font-size: 0.9em; margin-top: 5px;">Data Scientist III / Senior</p>
+                        <p style="font-size: 0.8em;">Meta: 2029+</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>📋 Requisitos por Nível</h3>
+                    
+                    <h4 style="color: #667eea; margin-top: 20px;">Cientista de Dados 1</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Domínio de Python e bibliotecas de ML (scikit-learn, pandas, numpy)</li>
+                        <li>Conhecimento sólido em estatística e probabilidade</li>
+                        <li>Experiência com algoritmos de ML supervisionado e não supervisionado</li>
+                        <li>Capacidade de desenvolver e avaliar modelos preditivos</li>
+                        <li>Conhecimento em SQL e manipulação de grandes volumes de dados</li>
+                        <li>Compreensão de métricas de avaliação de modelos</li>
+                    </ul>
+
+                    <h4 style="color: #667eea; margin-top: 20px;">Cientista de Dados 2</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Deep Learning e frameworks (TensorFlow, PyTorch)</li>
+                        <li>Otimização e tuning avançado de modelos</li>
+                        <li>MLOps e deploy de modelos em produção</li>
+                        <li>Liderança técnica de projetos de dados</li>
+                        <li>Processamento de linguagem natural (NLP) avançado</li>
+                        <li>Visão computacional e análise de imagens</li>
+                    </ul>
+
+                    <h4 style="color: #667eea; margin-top: 20px;">Cientista de Dados 3</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Arquitetura de soluções de ML em escala</li>
+                        <li>Pesquisa e desenvolvimento de novos algoritmos</li>
+                        <li>Mentoria e desenvolvimento de times</li>
+                        <li>Visão estratégica de negócio e impacto de dados</li>
+                        <li>Publicações e contribuições para comunidade</li>
+                        <li>Especialização em domínios específicos (Finance, Healthcare, etc.)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Competências -->
+            <div id="skills" class="tab-content">
+                <h2>💻 Competências Técnicas Atuais</h2>
+
+                <h3>🐍 Linguagens de Programação</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">PHP</div>
+                </div>
+
+                <h3>📊 Algoritmos e Técnicas de ML</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">K-Means</div>
+                    <div class="skill-item">Apriori</div>
+                    <div class="skill-item">Regressão Linear/Logística</div>
+                    <div class="skill-item">Árvores de Decisão</div>
+                    <div class="skill-item">Random Forest</div>
+                    <div class="skill-item">Clustering Hierárquico</div>
+                </div>
+
+                <h3>📚 Bibliotecas e Frameworks de Dados</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">Pandas</div>
+                    <div class="skill-item">Scikit-learn</div>
+                    <div class="skill-item">Statsmodels</div>
+                    <div class="skill-item">Prophet</div>
+                    <div class="skill-item">NumPy</div>
+                    <div class="skill-item">Matplotlib/Seaborn</div>
+                </div>
+
+                <h3>🌐 Desenvolvimento Web e APIs</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">Next.js</div>
+                    <div class="skill-item">Node.js</div>
+                    <div class="skill-item">React.js</div>
+                    <div class="skill-item">Express.js</div>
+                    <div class="skill-item">REST APIs</div>
+                    <div class="skill-item">React Native</div>
+                </div>
+
+                <h3>🗄️ Bancos de Dados</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">MySQL</div>
+                    <div class="skill-item">MongoDB</div>
+                    <div class="skill-item">PostgreSQL</div>
+                    <div class="skill-item">Prisma.js</div>
+                </div>
+
+                <h3>🛠️ Ferramentas e DevOps</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">Git/GitHub</div>
+                    <div class="skill-item">AWS</div>
+                    <div class="skill-item">Postman</div>
+                    <div class="skill-item">Figma</div>
+                </div>
+
+                <h3>🤖 Inteligência Artificial</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">Agentes Inteligentes</div>
+                    <div class="skill-item">Clusterização</div>
+                    <div class="skill-item">Vetorização</div>
+                    <div class="skill-item">Embeddings</div>
+                    <div class="skill-item">NLP Básico</div>
+                </div>
+            </div>
+
+            <!-- Gap Analysis -->
+            <div id="gap" class="tab-content">
+                <h2>📈 Plano de Ação: Caminho para Cientista de Dados 1</h2>
+
+                <div class="gap-analysis">
+                    <h3>🎯 O que falta para alcançar Cientista de Dados 1?</h3>
+                    <p style="margin-top: 10px;"><strong>Análise de competências necessárias vs. competências atuais:</strong></p>
+                </div>
+
+                <div class="card">
+                    <h3>📊 1. Fundamentos Estatísticos (PRIORIDADE ALTA)</h3>
+                    <p><strong>Status:</strong> Em desenvolvimento</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 60%;"></div>
+                    </div>
+                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Testes de hipóteses (t-test, chi-quadrado, ANOVA)</li>
+                        <li>Distribuições de probabilidade (Normal, Binomial, Poisson)</li>
+                        <li>Intervalos de confiança e significância estatística</li>
+                        <li>Correlação vs. causalidade</li>
+                        <li>Análise exploratória de dados (EDA) avançada</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>Ações:</strong></p>
+                    <ul style="margin-left: 20px;">
+                        <li>📚 Curso: "Statistics for Data Science" (Coursera/Udemy)</li>
+                        <li>📖 Livro: "Estatística Prática para Cientistas de Dados"</li>
+                        <li>💻 Praticar com datasets reais do Itaú</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🤖 2. Algoritmos de Machine Learning Supervisionado (PRIORIDADE ALTA)</h3>
+                    <p><strong>Status:</strong> Em desenvolvimento</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 50%;"></div>
+                    </div>
+                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Gradient Boosting (XGBoost, LightGBM, CatBoost)</li>
+                        <li>Support Vector Machines (SVM)</li>
+                        <li>Redes Neurais básicas (MLP)</li>
+                        <li>Ensemble methods (Bagging, Boosting, Stacking)</li>
+                        <li>Feature engineering avançado</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>Ações:</strong></p>
+                    <ul style="margin-left: 20px;">
+                        <li>📚 Curso: "Machine Learning Specialization" (Andrew Ng)</li>
+                        <li>💻 Kaggle competitions para prática</li>
+                        <li>🏆 Desenvolver projeto de modelo preditivo no Itaú</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>📉 3. Métricas de Avaliação de Modelos (PRIORIDADE ALTA)</h3>
+                    <p><strong>Status:</strong> Básico</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 40%;"></div>
+                    </div>
+                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>ROC-AUC, Precision, Recall, F1-Score</li>
+                        <li>Curva de ganho e lift</li>
+                        <li>Confusion matrix e interpretação</li>
+                        <li>Cross-validation strategies</li>
+                        <li>Métricas de regressão (RMSE, MAE, R²)</li>
+                        <li>Bias-variance tradeoff</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>Ações:</strong></p>
+                    <ul style="margin-left: 20px;">
+                        <li>📚 Documentação Scikit-learn sobre métricas</li>
+                        <li>💻 Implementar dashboard de métricas nos projetos</li>
+                        <li>🎯 Praticar interpretação de resultados</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🧠 4. Deep Learning Fundamentals (PRIORIDADE MÉDIA)</h3>
+                    <p><strong>Status:</strong> Iniciante</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 20%;"></div>
+                    </div>
+                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Redes Neurais Artificiais (ANNs)</li>
+                        <li>TensorFlow ou PyTorch básico</li>
+                        <li>Backpropagation e otimização</li>
+                        <li>Regularização (Dropout, L1/L2)</li>
+                        <li>Transfer learning básico</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>Ações:</strong></p>
+                    <ul style="margin-left: 20px;">
+                        <li>📚 Curso: "Deep Learning Specialization" (deeplearning.ai)</li>
+                        <li>💻 Projetos práticos com TensorFlow</li>
+                        <li>🎯 Implementar rede neural para problema do banco</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🔄 5. MLOps e Produtização de Modelos (PRIORIDADE MÉDIA)</h3>
+                    <p><strong>Status:</strong> Básico</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 30%;"></div>
+                    </div>
+                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Versionamento de modelos (MLflow, DVC)</li>
+                        <li>API deployment (FastAPI, Flask)</li>
+                        <li>Model monitoring e drift detection</li>
+                        <li>CI/CD para modelos de ML</li>
+                        <li>Containerização de modelos (Docker)</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>Ações:</strong></p>
+                    <ul style="margin-left: 20px;">
+                        <li>📚 Curso: "MLOps Fundamentals"</li>
+                        <li>💻 Implementar pipeline de deploy no Itaú</li>
+                        <li>🎯 Criar API para modelo desenvolvido</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>📝 6. NLP - Processamento de Linguagem Natural (PRIORIDADE MÉDIA)</h3>
+                    <p><strong>Status:</strong> Básico</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 35%;"></div>
+                    </div>
+                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>NLTK e SpaCy avançado</li>
+                        <li>Transformers e BERT</li>
+                        <li>Sentiment analysis</li>
+                        <li>Named Entity Recognition (NER)</li>
+                        <li>Topic modeling (LDA)</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>Ações:</strong></p>
+                    <ul style="margin-left: 20px;">
+                        <li>📚 Curso: "NLP with Python" (Coursera)</li>
+                        <li>💻 Projeto de análise de sentimento no banco</li>
+                        <li>🎯 Estudar modelos de linguagem (LLMs)</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>💼 7. Business Acumen e Comunicação de Resultados (PRIORIDADE ALTA)</h3>
+                    <p><strong>Status:</strong> Em desenvolvimento</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 55%;"></div>
+                    </div>
+                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Storytelling com dados</li>
+                        <li>Visualização de dados avançada (Tableau, Power BI)</li>
+                        <li>Apresentação de insights para stakeholders</li>
+                        <li>Entendimento de métricas de negócio do setor bancário</li>
+                        <li>Tradução de problemas de negócio para problemas de dados</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>Ações:</strong></p>
+                    <ul style="margin-left: 20px;">
+                        <li>📚 Livro: "Storytelling with Data"</li>
+                        <li>💻 Criar dashboards executivos</li>
+                        <li>🎯 Apresentar resultados em reuniões técnicas</li>
+                    </ul>
+                </div>
+
+                <div class="card" style="background: #e3f2fd; border-left-color: #2196F3;">
+                    <h3>🎯 Plano de Ação - Próximos 12 Meses</h3>
+                    
+                    <h4 style="color: #1976d2; margin-top: 20px;">Q4 2025 (Out - Dez)</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>✅ Aprofundar conhecimentos em estatística (curso + prática)</li>
+                        <li>✅ Dominar métricas de avaliação de modelos</li>
+                        <li>✅ Desenvolver 2 projetos completos de ML no banco</li>
+                        <li>✅ Estudar XGBoost e LightGBM</li>
+                    </ul>
+
+                    <h4 style="color: #1976d2; margin-top: 20px;">Q1 2026 (Jan - Mar)</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>🎯 Curso de Machine Learning Specialization (Andrew Ng)</li>
+                        <li>🎯 Participar de 2 competições Kaggle</li>
+                        <li>🎯 Implementar pipeline de MLOps no projeto</li>
+                        <li>🎯 Apresentar resultados para gestão</li>
+                    </ul>
+
+                    <h4 style="color: #1976d2; margin-top: 20px;">Q2 2026 (Abr - Jun)</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>🎯 Iniciar estudos em Deep Learning</li>
+                        <li>🎯 Desenvolver projeto de NLP</li>
+                        <li>🎯 Criar portfólio técnico (GitHub + Medium)</li>
+                        <li>🎯 Preparação para processo de efetivação</li>
+                    </ul>
+
+                    <h4 style="color: #1976d2; margin-top: 20px;">Q3 2026 (Jul - Set)</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>🎯 Certificação em Data Science (opcional)</li>
+                        <li>🎯 Mentoria com Cientista de Dados sênior</li>
+                        <li>🎯 Processo seletivo para Cientista de Dados 1</li>
+                        <li>🎯 Contribuir para comunidade (palestras/artigos)</li>
+                    </ul>
+                </div>
+
+                <div class="card" style="background: #fff9c4; border-left-color: #FFC107;">
+                    <h3>💡 Recursos de Aprendizado Recomendados</h3>
+                    
+                    <h4 style="margin-top: 15px;">📚 Cursos Online</h4>
+                    <ul style="margin-left: 20px;">
+                        <li>Machine Learning Specialization - Andrew Ng (Coursera)</li>
+                        <li>Deep Learning Specialization - deeplearning.ai</li>
+                        <li>Statistics for Data Science - Udemy</li>
+                        <li>MLOps Fundamentals - DataCamp</li>
+                        <li>Natural Language Processing - Coursera</li>
+                    </ul>
+
+                    <h4 style="margin-top: 15px;">📖 Livros</h4>
+                    <ul style="margin-left: 20px;">
+                        <li>"Hands-On Machine Learning" - Aurélien Géron</li>
+                        <li>"Estatística Prática para Cientistas de Dados" - Peter Bruce</li>
+                        <li>"The Hundred-Page Machine Learning Book" - Andriy Burkov</li>
+                        <li>"Storytelling with Data" - Cole Nussbaumer Knaflic</li>
+                    </ul>
+
+                    <h4 style="margin-top: 15px;">💻 Plataformas de Prática</h4>
+                    <ul style="margin-left: 20px;">
+                        <li>Kaggle - Competições e datasets</li>
+                        <li>LeetCode / HackerRank - Algoritmos</li>
+                        <li>GitHub - Portfólio e contribuições</li>
+                        <li>Medium / Dev.to - Escrita técnica</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Experiência -->
+            <div id="experience" class="tab-content">
+                <h2>💼 Trajetória Profissional</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>Data Engineer (Estagiário)</h4>
+                            <p class="period">Itaú Unibanco | Jun 2025 - Presente</p>
+                            <p>Desenvolvimento de pipelines de dados em Python, análise e transformação de grandes volumes de dados, criação de modelos de clusterização e vetorização, automação de processos com IA e integração de agentes inteligentes.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Pandas</span>
+                                <span class="tech-badge">Machine Learning</span>
+                                <span class="tech-badge">IA</span>
+                                <span class="tech-badge">Clusterização</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>Desenvolvedor FullStack Jr</h4>
+                            <p class="period">Comhub | Jul 2024 - Dez 2024</p>
+                            <p>Desenvolvimento de aplicações web com Next.js e Node.js, containerização em Docker, integração de APIs (Trello, PipeDrive, Google Drive) e gerenciamento de bancos MySQL via Prisma.js.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Next.js</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">Docker</span>
+                                <span class="tech-badge">MySQL</span>
+                                <span class="tech-badge">APIs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>Desenvolvedor FullStack Jr</h4>
+                            <p class="period">RDS | Sell Out Expert | Mai 2024 - Jun 2024</p>
+                            <p>Criação de soluções web escaláveis com MongoDB, ReactJS, NodeJS e Proxy, desde a concepção até a manutenção de sistemas de alto desempenho.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">MongoDB</span>
+                                <span class="tech-badge">React.js</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">Proxy</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>Gestor de Backend / Desenvolvedor FullStack</h4>
+                            <p class="period">AfroGlow | Ago 2023 - Mai 2024</p>
+                            <p>Liderança de equipe de backend, arquitetura de sistemas em Java, Spring Boot, ReactJS e AWS. Co-fundador focado em soluções escaláveis e deploys em nuvem.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Java</span>
+                                <span class="tech-badge">Spring Boot</span>
+                                <span class="tech-badge">React.js</span>
+                                <span class="tech-badge">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h4>Estagiário de TI</h4>
+                            <p class="period">Assessoria Grupo Talentos | Fev 2024 - Abr 2024</p>
+                            <p>Suporte técnico, manutenção de equipamentos e resolução de problemas técnicos de forma eficiente e colaborativa.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Suporte Técnico</span>
+                                <span class="tech-badge">Hardware</span>
+                                <span class="tech-badge">Troubleshooting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 40px;">🎓 Formação Acadêmica</h3>
+
+                <div class="card">
+                    <h4>🎯 Bacharelado em Tecnologia da Informação</h4>
+                    <p><strong>Instituição:</strong> Impacta Tecnologia</p>
+                    <p><strong>Período:</strong> 2024 - 2028 (Em andamento)</p>
+                </div>
+
+                <div class="card">
+                    <h4>💻 Técnico em Informática para Internet</h4>
+                    <p><strong>Instituição:</strong> Senac São Paulo</p>
+                    <p><strong>Período:</strong> Jun 2022 - Dez 2023</p>
+                    <p style="margin-top: 10px;"><strong>Competências:</strong> Front-end, Back-end, Mobile, CSS, HTML, POO, React Native, PHP, Python, Banco de dados, GitHub, Figma, UML, Postman</p>
+                </div>
+
+                <div class="card">
+                    <h4>☕ Programador Web Java</h4>
+                    <p><strong>Instituição:</strong> Instituto PROA</p>
+                    <p><strong>Período:</strong> Ago 2023 - Dez 2023</p>
+                </div>
+
+                <div class="card">
+                    <h4>🚀 Cursos Full Stack & IA</h4>
+                    <p><strong>Instituição:</strong> Rocketseat</p>
+                    <p><strong>Período:</strong> Ago 2024 - Set 2025</p>
+                    <p style="margin-top: 10px;"><strong>Foco:</strong> Python (backend e automação), Inteligência Artificial (ML e integração), Node.js (APIs robustas, Express e bancos de dados), boas práticas e escalabilidade</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Marcelo N. Aggio</strong> | Data Engineer @ Itaú Unibanco</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                🎯 Objetivo: Cientista de Dados 1 | 💻 Apaixonado por Python, ML e IA<br>
+                📍 Vila Aurora - Jaraguá, São Paulo, BR | 📧 Conecte-se no LinkedIn
+            </p>
+            <p style="margin-top: 15px; font-size: 0.8em; opacity: 0.8;">
+                PDI atualizado em Outubro de 2025
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabContent, tabs;
+            
+            tabContent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].classList.remove("active");
+            }
+            
+            tabs = document.getElementsByClassName("tab");
+            for (i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove("active");
+            }
+            
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+
+        // Animação das barras de progresso
+        window.addEventListener('load', function() {
+            const progressBars = document.querySelectorAll('.progress-fill');
+            progressBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>
