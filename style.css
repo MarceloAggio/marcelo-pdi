@@ -103,6 +103,12 @@
             font-size: 1.5em;
         }
 
+        h4 {
+            color: #667eea;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
         .card {
             background: #f8f9fa;
             border-left: 4px solid #667eea;
@@ -139,8 +145,8 @@
             box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
         }
 
-        .skill-item.learning {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        .skill-item.advanced {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
         }
 
         .career-path {
@@ -171,38 +177,29 @@
             transform: scale(1.1);
         }
 
-        .career-step h4 {
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
-
         .arrow {
             color: #667eea;
             font-size: 2em;
             font-weight: bold;
         }
 
-        .gap-analysis {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 10px;
         }
 
-        .gap-analysis h3 {
-            color: #856404;
-            margin-top: 0;
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 1s ease;
         }
 
-        .gap-analysis ul {
-            margin-left: 20px;
-            margin-top: 15px;
-        }
-
-        .gap-analysis li {
-            margin-bottom: 10px;
-            color: #856404;
+        .progress-fill.high {
+            background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
         }
 
         .timeline {
@@ -272,19 +269,23 @@
             font-weight: 600;
         }
 
-        .progress-bar {
-            width: 100%;
-            height: 8px;
-            background: #e0e0e0;
-            border-radius: 10px;
-            overflow: hidden;
-            margin-top: 10px;
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-left: 4px solid #11998e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
         }
 
-        .progress-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-            transition: width 1s ease;
+        .impact-badge {
+            display: inline-block;
+            background: #11998e;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-top: 10px;
         }
 
         footer {

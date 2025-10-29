@@ -16,8 +16,8 @@
 
         <div class="tabs">
             <button class="tab active" onclick="openTab(event, 'overview')">📊 Visão Geral</button>
-            <button class="tab" onclick="openTab(event, 'projects-external')">🌐 Projetos Externos</button>
             <button class="tab" onclick="openTab(event, 'projects-internal')">🏦 Projetos no Banco</button>
+            <button class="tab" onclick="openTab(event, 'projects-external')">🌐 Projetos Externos</button>
             <button class="tab" onclick="openTab(event, 'career')">🎯 Mapa de Carreira</button>
             <button class="tab" onclick="openTab(event, 'skills')">💻 Competências</button>
             <button class="tab" onclick="openTab(event, 'gap')">📈 Plano de Ação</button>
@@ -32,8 +32,21 @@
                 <div class="card">
                     <h3>👨‍💻 Perfil Profissional</h3>
                     <p><strong>Cargo Atual:</strong> Data Engineer (Estagiário) - Itaú Unibanco</p>
-                    <p><strong>Período:</strong> Junho 2025 - Presente</p>
-                    <p><strong>Foco:</strong> Automações, Inteligência Artificial e pipelines de dados</p>
+                    <p><strong>Período:</strong> Junho 2025 - Presente (5 meses)</p>
+                    <p><strong>Foco:</strong> Análise de Dados, Machine Learning, Séries Temporais e Automações Inteligentes</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>🎯 Conquistas Principais (Jun - Out 2025)</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>✅ <strong>5 projetos de alto impacto</strong> desenvolvidos em Python</li>
+                        <li>✅ Domínio de <strong>algoritmos de clustering</strong> (KMeans, DBSCAN) em produção</li>
+                        <li>✅ Experiência prática com <strong>séries temporais</strong> (Prophet, ARIMA, Statsmodels)</li>
+                        <li>✅ Implementação de <strong>regras de associação</strong> (Apriori, FP-Growth)</li>
+                        <li>✅ Criação de <strong>dashboards interativos</strong> com Streamlit e Plotly</li>
+                        <li>✅ Expertise em <strong>AWS Athena</strong> para queries em grandes volumes</li>
+                        <li>✅ Aplicação de <strong>detecção de anomalias</strong> (Isolation Forest)</li>
+                    </ul>
                 </div>
 
                 <div class="card">
@@ -42,18 +55,241 @@
                     <div style="margin-top: 20px; font-size: 1.2em; text-align: center;">
                         <strong>Estagiário → Cientista de Dados 1 → Cientista de Dados 2 → Cientista de Dados 3</strong>
                     </div>
+                    <p style="margin-top: 15px; text-align: center; color: #11998e; font-weight: 600;">
+                        📍 Progresso atual: <strong>75% preparado para Cientista de Dados 1</strong>
+                    </p>
                 </div>
 
                 <div class="card">
-                    <h3>🔥 Principais Paixões</h3>
+                    <h3>🔥 Principais Especialidades</h3>
                     <div class="skill-grid">
-                        <div class="skill-item">Python</div>
-                        <div class="skill-item">Pandas</div>
-                        <div class="skill-item">Agentes Inteligentes</div>
-                        <div class="skill-item">Clusterização</div>
-                        <div class="skill-item">Vetorização</div>
-                        <div class="skill-item">Soluções Escaláveis</div>
+                        <div class="skill-item advanced">Python & Pandas</div>
+                        <div class="skill-item advanced">Clustering (KMeans, DBSCAN)</div>
+                        <div class="skill-item advanced">Séries Temporais</div>
+                        <div class="skill-item advanced">AWS Athena</div>
+                        <div class="skill-item">Análise Estatística</div>
+                        <div class="skill-item">Streamlit & Plotly</div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Projetos Internos -->
+            <div id="projects-internal" class="tab-content">
+                <h2>🏦 Projetos Desenvolvidos no Itaú Unibanco</h2>
+                
+                <div class="highlight-box">
+                    <h3>📊 Resumo de Impacto</h3>
+                    <p><strong>Período:</strong> Junho 2025 - Outubro 2025 (5 meses)</p>
+                    <p><strong>Total de Projetos:</strong> 5 projetos de Machine Learning e Análise de Dados</p>
+                    <p><strong>Stack Principal:</strong> Python, Pandas, Scikit-learn, Prophet, Streamlit, AWS Athena</p>
+                </div>
+
+                <div class="project-card card">
+                    <h3>🔴 1. Análise de Reincidência de Alertas</h3>
+                    <p><strong>Descrição:</strong> Sistema completo de análise para identificar padrões de reincidência em alertas de monitoramento, utilizando múltiplos algoritmos de clustering e detecção de anomalias.</p>
+                    
+                    <h4>🎯 Técnicas Implementadas:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Clustering:</strong> KMeans e DBSCAN para agrupamento de alertas similares</li>
+                        <li><strong>Detecção de Anomalias:</strong> Isolation Forest para identificar alertas atípicos</li>
+                        <li><strong>Análise de Frequências:</strong> FFT (Fast Fourier Transform) para identificar padrões cíclicos</li>
+                        <li><strong>Processamento de Sinais:</strong> Scipy.signal para análise temporal</li>
+                        <li><strong>Avaliação de Clusters:</strong> Silhouette Score para otimização de parâmetros</li>
+                        <li><strong>Otimização:</strong> Multiprocessing para processamento paralelo de grandes volumes</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">Scikit-learn</span>
+                        <span class="tech-badge">KMeans</span>
+                        <span class="tech-badge">DBSCAN</span>
+                        <span class="tech-badge">Isolation Forest</span>
+                        <span class="tech-badge">Scipy (FFT)</span>
+                        <span class="tech-badge">Streamlit</span>
+                        <span class="tech-badge">Plotly</span>
+                        <span class="tech-badge">Multiprocessing</span>
+                    </div>
+                    
+                    <div class="impact-badge">✨ Impacto: Revisão da regra de definição de incidentes reincidentes no Athena</div>
+                    
+                    <h4 style="margin-top: 15px;">💡 Aprendizados Principais:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Diferenças práticas entre KMeans (density-based) e DBSCAN (distance-based)</li>
+                        <li>Como avaliar qualidade de clusters com métricas quantitativas</li>
+                        <li>Aplicação de FFT para detectar sazonalidade em alertas</li>
+                        <li>Otimização de performance com processamento paralelo</li>
+                    </ul>
+                </div>
+
+                <div class="project-card card">
+                    <h3>📊 2. Analisador de Séries Temporais (Thresholds Datadog)</h3>
+                    <p><strong>Descrição:</strong> Sistema automatizado para análise de séries temporais e sugestão inteligente de thresholds para alertas no Datadog, baseado em padrões históricos e previsões.</p>
+                    
+                    <h4>🎯 Técnicas Implementadas:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Prophet:</strong> Modelo principal para forecasting (escolhido após testes com ARIMA)</li>
+                        <li><strong>ARIMA:</strong> Testado para comparação, Prophet mostrou-se mais robusto</li>
+                        <li><strong>AWS Athena:</strong> Queries SQL otimizadas para extração de dados históricos</li>
+                        <li><strong>Análise Estatística:</strong> Cálculo de percentis e intervalos de confiança</li>
+                        <li><strong>Detecção de Tendências:</strong> Identificação automática de crescimento/declínio</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Prophet</span>
+                        <span class="tech-badge">ARIMA</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">AWS Athena</span>
+                        <span class="tech-badge">Statsmodels</span>
+                        <span class="tech-badge">Matplotlib</span>
+                    </div>
+                    
+                    <div class="impact-badge">✨ Impacto Esperado: Redução de incidentes CLEAR por definição correta de thresholds</div>
+                    
+                    <h4 style="margin-top: 15px;">💡 Aprendizados Principais:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Prophet é mais robusto para séries com sazonalidade forte e feriados</li>
+                        <li>ARIMA requer mais tuning manual mas é mais interpretável</li>
+                        <li>Importância de considerar contexto de negócio nos thresholds</li>
+                        <li>Otimização de queries no Athena para grandes volumes de dados</li>
+                    </ul>
+                </div>
+
+                <div class="project-card card">
+                    <h3>🔍 3. Identificação de Sazonalidade em Séries Temporais</h3>
+                    <p><strong>Descrição:</strong> Sistema de classificação automática de séries temporais entre sazonais e lineares, auxiliando na escolha de modelos de previsão adequados.</p>
+                    
+                    <h4>🎯 Técnicas Implementadas:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Decomposição de Séries:</strong> Statsmodels seasonal_decompose</li>
+                        <li><strong>Testes Estatísticos:</strong> Augmented Dickey-Fuller (ADF) para estacionaridade</li>
+                        <li><strong>Análise de Autocorrelação:</strong> ACF e PACF plots</li>
+                        <li><strong>Detecção de Tendência:</strong> Algoritmos para identificar trends lineares vs cíclicos</li>
+                        <li><strong>Classificação Automatizada:</strong> Regras baseadas em testes estatísticos</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Statsmodels</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">Scipy</span>
+                    </div>
+                    
+                    <div class="impact-badge">✨ Impacto: Aceleração na escolha do modelo correto de forecasting</div>
+                    
+                    <h4 style="margin-top: 15px;">💡 Aprendizados Principais:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Diferença entre séries estacionárias e não-estacionárias</li>
+                        <li>Como decomposição de séries ajuda na interpretabilidade</li>
+                        <li>Uso de testes estatísticos para decisões automatizadas</li>
+                        <li>Importância de validar hipóteses antes de modelar</li>
+                    </ul>
+                </div>
+
+                <div class="project-card card">
+                    <h3>🎯 4. Clustering de Incidentes</h3>
+                    <p><strong>Descrição:</strong> Agrupamento inteligente de incidentes para identificar padrões recorrentes, causas raiz comuns e otimizar a resolução de problemas.</p>
+                    
+                    <h4>🎯 Técnicas Implementadas:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>KMeans Clustering:</strong> Algoritmo principal para agrupamento</li>
+                        <li><strong>Distância Euclidiana:</strong> Métrica para similaridade entre incidentes</li>
+                        <li><strong>Feature Engineering:</strong> Extração e normalização de características relevantes</li>
+                        <li><strong>Elbow Method:</strong> Determinação do número ideal de clusters</li>
+                        <li><strong>Análise de Padrões:</strong> Identificação de características comuns por cluster</li>
+                        <li><strong>AWS Athena:</strong> Extração de dados históricos de incidentes</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Scikit-learn</span>
+                        <span class="tech-badge">KMeans</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">AWS Athena</span>
+                        <span class="tech-badge">StandardScaler</span>
+                    </div>
+                    
+                    <div class="impact-badge">✨ Impacto: Identificação de 5 grupos principais de incidentes recorrentes</div>
+                    
+                    <h4 style="margin-top: 15px;">💡 Aprendizados Principais:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Conceito de Cluster:</strong> Agrupamento de dados similares baseado em distância</li>
+                        <li><strong>Como KMeans funciona:</strong> Iterativo com centroides, minimizando inércia</li>
+                        <li><strong>Distância Euclidiana:</strong> √((x₁-x₂)² + (y₁-y₂)²) para medir similaridade</li>
+                        <li>Importância da normalização de features para evitar bias de escala</li>
+                        <li>Interpretação de clusters para insights de negócio</li>
+                    </ul>
+                </div>
+
+                <div class="project-card card">
+                    <h3>🔗 5. Análise de Regras de Associação</h3>
+                    <p><strong>Descrição:</strong> Implementação de algoritmos de market basket analysis para identificar correlações e padrões entre eventos/alertas.</p>
+                    
+                    <h4>🎯 Técnicas Implementadas:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Apriori:</strong> Algoritmo clássico para descoberta de itemsets frequentes</li>
+                        <li><strong>FP-Growth:</strong> Versão otimizada do Apriori com melhor performance</li>
+                        <li><strong>Métricas de Associação:</strong> Suporte, confiança e lift</li>
+                        <li><strong>Regras Condicionais:</strong> "Quando A acontece, B acontece X% das vezes"</li>
+                        <li><strong>Análise de Correlações:</strong> Identificação de eventos co-ocorrentes</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">mlxtend</span>
+                        <span class="tech-badge">Apriori</span>
+                        <span class="tech-badge">FP-Growth</span>
+                        <span class="tech-badge">Pandas</span>
+                    </div>
+                    
+                    <div class="impact-badge">✨ Impacto: Descoberta de 15+ regras de correlação entre alertas</div>
+                    
+                    <h4 style="margin-top: 15px;">💡 Aprendizados Principais:</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Apriori:</strong> Busca em largura, gera candidatos e poda com suporte mínimo</li>
+                        <li><strong>FP-Growth:</strong> Mais eficiente, usa árvore FP sem geração de candidatos</li>
+                        <li>Diferença entre correlação e causalidade</li>
+                        <li>Como interpretar métricas: suporte (frequência), confiança (probabilidade condicional), lift (força da regra)</li>
+                        <li>Aplicação prática em detecção de cascata de alertas</li>
+                    </ul>
+                </div>
+
+                <div class="card" style="background: #e8f5e9; border-left-color: #4CAF50;">
+                    <h3>🎯 Stack Técnico dos Projetos no Banco</h3>
+                    
+                    <h4>🐍 Core Technologies</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Linguagem:</strong> Python 3.x</li>
+                        <li><strong>Data Processing:</strong> Pandas, NumPy</li>
+                        <li><strong>Machine Learning:</strong> Scikit-learn, Statsmodels</li>
+                        <li><strong>Time Series:</strong> Prophet, ARIMA (statsmodels)</li>
+                        <li><strong>Clustering:</strong> KMeans, DBSCAN, StandardScaler</li>
+                    </ul>
+
+                    <h4 style="margin-top: 15px;">📊 Visualization & Deployment</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Dashboards:</strong> Streamlit</li>
+                        <li><strong>Gráficos:</strong> Plotly, Matplotlib, Seaborn</li>
+                        <li><strong>Cloud:</strong> AWS Athena (SQL queries)</li>
+                    </ul>
+
+                    <h4 style="margin-top: 15px;">🧮 Advanced Techniques</h4>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Anomaly Detection:</strong> Isolation Forest</li>
+                        <li><strong>Signal Processing:</strong> FFT, Scipy.signal</li>
+                        <li><strong>Association Rules:</strong> Apriori, FP-Growth (mlxtend)</li>
+                        <li><strong>Performance:</strong> Multiprocessing, optimization</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>📈 Evolução do Conhecimento</h3>
+                    <p><strong>Jun 2025:</strong> Início do estágio com conhecimento básico em Python</p>
+                    <p><strong>Jul-Ago 2025:</strong> Domínio de Pandas e primeiros projetos de clustering</p>
+                    <p><strong>Set 2025:</strong> Avanço em séries temporais e Prophet</p>
+                    <p><strong>Out 2025:</strong> Consolidação de skills em ML, pronto para próximo nível</p>
                 </div>
             </div>
 
@@ -110,76 +346,13 @@
                 </div>
 
                 <div class="card" style="background: #e7f3ff; border-left-color: #2196F3;">
-                    <h3>📦 Stack Técnico dos Projetos</h3>
+                    <h3>📦 Stack Técnico dos Projetos Externos</h3>
                     <ul style="margin-left: 20px; margin-top: 10px;">
                         <li><strong>Frontend:</strong> Next.js, React.js, HTML5, CSS3</li>
                         <li><strong>Backend:</strong> Node.js, Express.js</li>
                         <li><strong>Banco de Dados:</strong> MySQL, Prisma.js, MongoDB</li>
                         <li><strong>DevOps:</strong> Docker, Docker Compose</li>
                         <li><strong>APIs:</strong> REST, OAuth 2.0, Webhooks</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Projetos Internos -->
-            <div id="projects-internal" class="tab-content">
-                <h2>🏦 Projetos Desenvolvidos no Itaú Unibanco</h2>
-                
-                <div class="project-card card">
-                    <h3>🤖 Pipelines de Dados com Python</h3>
-                    <p><strong>Descrição:</strong> Desenvolvimento de pipelines robustos para ingestão, transformação e análise de grandes volumes de dados.</p>
-                    <div class="tech-stack">
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">Pandas</span>
-                        <span class="tech-badge">Apache Airflow</span>
-                        <span class="tech-badge">SQL</span>
-                    </div>
-                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Automação de processos de ETL e redução de tempo de processamento de dados.</p>
-                </div>
-
-                <div class="project-card card">
-                    <h3>🎯 Modelos de Clusterização</h3>
-                    <p><strong>Descrição:</strong> Implementação de modelos de clusterização para segmentação de clientes e análise de comportamento.</p>
-                    <div class="tech-stack">
-                        <span class="tech-badge">K-Means</span>
-                        <span class="tech-badge">Scikit-learn</span>
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">Pandas</span>
-                    </div>
-                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Identificação de padrões de comportamento e segmentação estratégica de clientes.</p>
-                </div>
-
-                <div class="project-card card">
-                    <h3>🧠 Vetorização e Embeddings</h3>
-                    <p><strong>Descrição:</strong> Desenvolvimento de sistemas de vetorização para análise semântica e busca inteligente.</p>
-                    <div class="tech-stack">
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">Embeddings</span>
-                        <span class="tech-badge">NLP</span>
-                        <span class="tech-badge">Vector Databases</span>
-                    </div>
-                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Melhoria na busca e recuperação de informações relevantes.</p>
-                </div>
-
-                <div class="project-card card">
-                    <h3>⚡ Automação de Processos com IA</h3>
-                    <p><strong>Descrição:</strong> Criação de automações inteligentes utilizando IA para otimização de workflows.</p>
-                    <div class="tech-stack">
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">Agentes Inteligentes</span>
-                        <span class="tech-badge">Machine Learning</span>
-                        <span class="tech-badge">APIs</span>
-                    </div>
-                    <p style="margin-top: 15px;"><strong>Impacto:</strong> Redução de trabalho manual e aumento da eficiência operacional.</p>
-                </div>
-
-                <div class="card" style="background: #e8f5e9; border-left-color: #4CAF50;">
-                    <h3>🎯 Resultados e Aprendizados</h3>
-                    <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>Desenvolvimento de habilidades avançadas em Python e análise de dados</li>
-                        <li>Experiência prática com modelos de Machine Learning em produção</li>
-                        <li>Compreensão profunda de arquiteturas de dados escaláveis</li>
-                        <li>Integração de soluções de IA em processos corporativos</li>
                     </ul>
                 </div>
             </div>
@@ -193,7 +366,8 @@
                         <h4>📍 Posição Atual</h4>
                         <p><strong>Estagiário</strong></p>
                         <p style="font-size: 0.9em; margin-top: 5px;">Data Engineer</p>
-                        <p style="font-size: 0.8em; color: #ccc;">Jun 2025 - Presente</p>
+                        <p style="font-size: 0.8em; color: #fff;">Jun 2025 - Presente</p>
+                        <p style="font-size: 0.85em; margin-top: 10px; color: #fff;">5 projetos ML concluídos</p>
                     </div>
                     <div class="arrow">→</div>
                     <div class="career-step">
@@ -201,6 +375,7 @@
                         <p><strong>Cientista de Dados 1</strong></p>
                         <p style="font-size: 0.9em; margin-top: 5px;">Data Scientist I</p>
                         <p style="font-size: 0.8em;">Meta: 2026</p>
+                        <p style="font-size: 0.85em; margin-top: 10px; color: #11998e; font-weight: 600;">75% preparado</p>
                     </div>
                     <div class="arrow">→</div>
                     <div class="career-step">
@@ -223,12 +398,12 @@
                     
                     <h4 style="color: #667eea; margin-top: 20px;">Cientista de Dados 1</h4>
                     <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>Domínio de Python e bibliotecas de ML (scikit-learn, pandas, numpy)</li>
-                        <li>Conhecimento sólido em estatística e probabilidade</li>
-                        <li>Experiência com algoritmos de ML supervisionado e não supervisionado</li>
-                        <li>Capacidade de desenvolver e avaliar modelos preditivos</li>
-                        <li>Conhecimento em SQL e manipulação de grandes volumes de dados</li>
-                        <li>Compreensão de métricas de avaliação de modelos</li>
+                        <li>✅ Domínio de Python e bibliotecas de ML (scikit-learn, pandas, numpy)</li>
+                        <li>🔄 Conhecimento sólido em estatística e probabilidade (70% completo)</li>
+                        <li>✅ Experiência com algoritmos de ML supervisionado e não supervisionado</li>
+                        <li>🔄 Capacidade de desenvolver e avaliar modelos preditivos (em desenvolvimento)</li>
+                        <li>✅ Conhecimento em SQL e manipulação de grandes volumes de dados</li>
+                        <li>🔄 Compreensão de métricas de avaliação de modelos (60% completo)</li>
                     </ul>
 
                     <h4 style="color: #667eea; margin-top: 20px;">Cientista de Dados 2</h4>
@@ -257,33 +432,80 @@
             <div id="skills" class="tab-content">
                 <h2>💻 Competências Técnicas Atuais</h2>
 
+                <div class="highlight-box">
+                    <h3>⭐ Competências Avançadas (Desenvolvidas no Banco)</h3>
+                    <p style="margin-bottom: 15px;">Habilidades consolidadas através de projetos práticos em produção:</p>
+                </div>
+
                 <h3>🐍 Linguagens de Programação</h3>
                 <div class="skill-grid">
-                    <div class="skill-item">Python</div>
+                    <div class="skill-item advanced">Python (Avançado)</div>
                     <div class="skill-item">JavaScript</div>
                     <div class="skill-item">SQL</div>
                     <div class="skill-item">Java</div>
                     <div class="skill-item">PHP</div>
                 </div>
 
-                <h3>📊 Algoritmos e Técnicas de ML</h3>
+                <h3>📊 Machine Learning - Algoritmos Não Supervisionados</h3>
                 <div class="skill-grid">
-                    <div class="skill-item">K-Means</div>
-                    <div class="skill-item">Apriori</div>
+                    <div class="skill-item advanced">K-Means (Produção)</div>
+                    <div class="skill-item advanced">DBSCAN (Produção)</div>
+                    <div class="skill-item advanced">Isolation Forest</div>
+                    <div class="skill-item">Clustering Hierárquico</div>
+                </div>
+
+                <h3>🔗 Algoritmos de Associação</h3>
+                <div class="skill-grid">
+                    <div class="skill-item advanced">Apriori</div>
+                    <div class="skill-item advanced">FP-Growth</div>
+                    <div class="skill-item advanced">Market Basket Analysis</div>
+                </div>
+
+                <h3>📈 Séries Temporais</h3>
+                <div class="skill-grid">
+                    <div class="skill-item advanced">Prophet (Produção)</div>
+                    <div class="skill-item advanced">ARIMA</div>
+                    <div class="skill-item advanced">Statsmodels</div>
+                    <div class="skill-item advanced">Seasonal Decompose</div>
+                    <div class="skill-item">ACF/PACF Analysis</div>
+                </div>
+
+                <h3>🎯 Machine Learning - Algoritmos Supervisionados</h3>
+                <div class="skill-grid">
                     <div class="skill-item">Regressão Linear/Logística</div>
                     <div class="skill-item">Árvores de Decisão</div>
                     <div class="skill-item">Random Forest</div>
-                    <div class="skill-item">Clustering Hierárquico</div>
                 </div>
 
                 <h3>📚 Bibliotecas e Frameworks de Dados</h3>
                 <div class="skill-grid">
-                    <div class="skill-item">Pandas</div>
-                    <div class="skill-item">Scikit-learn</div>
-                    <div class="skill-item">Statsmodels</div>
-                    <div class="skill-item">Prophet</div>
-                    <div class="skill-item">NumPy</div>
-                    <div class="skill-item">Matplotlib/Seaborn</div>
+                    <div class="skill-item advanced">Pandas</div>
+                    <div class="skill-item advanced">Scikit-learn</div>
+                    <div class="skill-item advanced">Statsmodels</div>
+                    <div class="skill-item advanced">Prophet</div>
+                    <div class="skill-item advanced">NumPy</div>
+                    <div class="skill-item">Scipy</div>
+                    <div class="skill-item">mlxtend</div>
+                </div>
+
+                <h3>📊 Visualização de Dados</h3>
+                <div class="skill-grid">
+                    <div class="skill-item advanced">Streamlit</div>
+                    <div class="skill-item advanced">Plotly</div>
+                    <div class="skill-item">Matplotlib</div>
+                    <div class="skill-item">Seaborn</div>
+                </div>
+
+                <h3>☁️ Cloud & Big Data</h3>
+                <div class="skill-grid">
+                    <div class="skill-item advanced">AWS Athena (SQL)</div>
+                    <div class="skill-item">AWS</div>
+                </div>
+
+                <h3>⚡ Performance & Optimization</h3>
+                <div class="skill-grid">
+                    <div class="skill-item advanced">Multiprocessing</div>
+                    <div class="skill-item">Code Optimization</div>
                 </div>
 
                 <h3>🌐 Desenvolvimento Web e APIs</h3>
@@ -308,18 +530,8 @@
                 <div class="skill-grid">
                     <div class="skill-item">Docker</div>
                     <div class="skill-item">Git/GitHub</div>
-                    <div class="skill-item">AWS</div>
                     <div class="skill-item">Postman</div>
                     <div class="skill-item">Figma</div>
-                </div>
-
-                <h3>🤖 Inteligência Artificial</h3>
-                <div class="skill-grid">
-                    <div class="skill-item">Agentes Inteligentes</div>
-                    <div class="skill-item">Clusterização</div>
-                    <div class="skill-item">Vetorização</div>
-                    <div class="skill-item">Embeddings</div>
-                    <div class="skill-item">NLP Básico</div>
                 </div>
             </div>
 
@@ -327,85 +539,109 @@
             <div id="gap" class="tab-content">
                 <h2>📈 Plano de Ação: Caminho para Cientista de Dados 1</h2>
 
-                <div class="gap-analysis">
-                    <h3>🎯 O que falta para alcançar Cientista de Dados 1?</h3>
-                    <p style="margin-top: 10px;"><strong>Análise de competências necessárias vs. competências atuais:</strong></p>
+                <div class="highlight-box">
+                    <h3>🎯 Status Atual: 75% Preparado</h3>
+                    <p style="margin-top: 10px;"><strong>Você já domina muitos dos requisitos essenciais!</strong></p>
+                    <p style="margin-top: 10px;">Com base nos 5 projetos desenvolvidos no banco, você demonstrou competência sólida em:</p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>✅ Python avançado e manipulação de dados com Pandas</li>
+                        <li>✅ Algoritmos de clustering (KMeans, DBSCAN) em produção</li>
+                        <li>✅ Séries temporais (Prophet, ARIMA, decomposição)</li>
+                        <li>✅ Análise exploratória de dados (EDA) avançada</li>
+                        <li>✅ SQL e queries em grandes volumes (AWS Athena)</li>
+                        <li>✅ Algoritmos de associação (Apriori, FP-Growth)</li>
+                    </ul>
                 </div>
 
                 <div class="card">
                     <h3>📊 1. Fundamentos Estatísticos (PRIORIDADE ALTA)</h3>
-                    <p><strong>Status:</strong> Em desenvolvimento</p>
+                    <p><strong>Status:</strong> Bom progresso - aplicação prática consolidada</p>
                     <div class="progress-bar">
-                        <div class="progress-fill" style="width: 60%;"></div>
+                        <div class="progress-fill high" style="width: 70%;"></div>
                     </div>
-                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <p style="margin-top: 10px;"><strong>✅ Você já tem experiência com:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>Testes de hipóteses (t-test, chi-quadrado, ANOVA)</li>
-                        <li>Distribuições de probabilidade (Normal, Binomial, Poisson)</li>
-                        <li>Intervalos de confiança e significância estatística</li>
-                        <li>Correlação vs. causalidade</li>
-                        <li>Análise exploratória de dados (EDA) avançada</li>
+                        <li>Análise de distribuições (aplicado em clustering)</li>
+                        <li>Testes de estacionaridade (ADF test em séries temporais)</li>
+                        <li>Decomposição estatística (seasonal_decompose)</li>
+                        <li>Silhouette score e métricas de avaliação</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>🔄 O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Testes de hipóteses formais (t-test, chi-quadrado, ANOVA)</li>
+                        <li>Intervalos de confiança e p-values</li>
+                        <li>Correlação vs. causalidade (teoria)</li>
                     </ul>
                     <p style="margin-top: 10px;"><strong>Ações:</strong></p>
                     <ul style="margin-left: 20px;">
-                        <li>📚 Curso: "Statistics for Data Science" (Coursera/Udemy)</li>
-                        <li>📖 Livro: "Estatística Prática para Cientistas de Dados"</li>
-                        <li>💻 Praticar com datasets reais do Itaú</li>
+                        <li>📚 Curso: "Statistics for Data Science" (Coursera/Udemy) - 2 semanas</li>
+                        <li>📖 Livro: "Estatística Prática para Cientistas de Dados" - capítulos específicos</li>
+                        <li>💻 Aplicar testes de hipóteses nos projetos existentes do banco</li>
                     </ul>
                 </div>
 
                 <div class="card">
                     <h3>🤖 2. Algoritmos de Machine Learning Supervisionado (PRIORIDADE ALTA)</h3>
-                    <p><strong>Status:</strong> Em desenvolvimento</p>
+                    <p><strong>Status:</strong> Base sólida, precisa expandir</p>
                     <div class="progress-bar">
                         <div class="progress-fill" style="width: 50%;"></div>
                     </div>
-                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <p style="margin-top: 10px;"><strong>✅ Você já tem:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Forte experiência com algoritmos não-supervisionados</li>
+                        <li>Compreensão de feature engineering (usado nos clusters)</li>
+                        <li>Experiência com avaliação de modelos (silhouette score)</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>🔄 O que desenvolver:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px;">
                         <li>Gradient Boosting (XGBoost, LightGBM, CatBoost)</li>
                         <li>Support Vector Machines (SVM)</li>
                         <li>Redes Neurais básicas (MLP)</li>
                         <li>Ensemble methods (Bagging, Boosting, Stacking)</li>
-                        <li>Feature engineering avançado</li>
+                        <li>Cross-validation strategies</li>
                     </ul>
                     <p style="margin-top: 10px;"><strong>Ações:</strong></p>
                     <ul style="margin-left: 20px;">
-                        <li>📚 Curso: "Machine Learning Specialization" (Andrew Ng)</li>
-                        <li>💻 Kaggle competitions para prática</li>
-                        <li>🏆 Desenvolver projeto de modelo preditivo no Itaú</li>
+                        <li>📚 Curso: "Machine Learning Specialization" (Andrew Ng) - começar imediatamente</li>
+                        <li>💻 Kaggle: 2-3 competições focadas em supervised learning</li>
+                        <li>🏆 Desenvolver projeto de modelo preditivo no Itaú (próxima demanda)</li>
                     </ul>
                 </div>
 
                 <div class="card">
                     <h3>📉 3. Métricas de Avaliação de Modelos (PRIORIDADE ALTA)</h3>
-                    <p><strong>Status:</strong> Básico</p>
+                    <p><strong>Status:</strong> Experiência prática com clustering, expandir para classificação/regressão</p>
                     <div class="progress-bar">
-                        <div class="progress-fill" style="width: 40%;"></div>
+                        <div class="progress-fill" style="width: 60%;"></div>
                     </div>
-                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <p style="margin-top: 10px;"><strong>✅ Você já conhece:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>ROC-AUC, Precision, Recall, F1-Score</li>
-                        <li>Curva de ganho e lift</li>
+                        <li>Silhouette score para clustering</li>
+                        <li>Conceito de avaliação quantitativa de modelos</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>🔄 O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>ROC-AUC, Precision, Recall, F1-Score (classificação)</li>
                         <li>Confusion matrix e interpretação</li>
-                        <li>Cross-validation strategies</li>
                         <li>Métricas de regressão (RMSE, MAE, R²)</li>
+                        <li>Curva de ganho e lift</li>
                         <li>Bias-variance tradeoff</li>
                     </ul>
                     <p style="margin-top: 10px;"><strong>Ações:</strong></p>
                     <ul style="margin-left: 20px;">
-                        <li>📚 Documentação Scikit-learn sobre métricas</li>
-                        <li>💻 Implementar dashboard de métricas nos projetos</li>
-                        <li>🎯 Praticar interpretação de resultados</li>
+                        <li>📚 Documentação Scikit-learn sobre métricas - estudo focado</li>
+                        <li>💻 Implementar dashboard completo de métricas</li>
+                        <li>🎯 Praticar interpretação em projetos reais</li>
                     </ul>
                 </div>
 
                 <div class="card">
                     <h3>🧠 4. Deep Learning Fundamentals (PRIORIDADE MÉDIA)</h3>
-                    <p><strong>Status:</strong> Iniciante</p>
+                    <p><strong>Status:</strong> Próximo passo natural após consolidar ML tradicional</p>
                     <div class="progress-bar">
                         <div class="progress-fill" style="width: 20%;"></div>
                     </div>
-                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <p style="margin-top: 10px;"><strong>🔄 O que desenvolver:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px;">
                         <li>Redes Neurais Artificiais (ANNs)</li>
                         <li>TensorFlow ou PyTorch básico</li>
@@ -415,7 +651,7 @@
                     </ul>
                     <p style="margin-top: 10px;"><strong>Ações:</strong></p>
                     <ul style="margin-left: 20px;">
-                        <li>📚 Curso: "Deep Learning Specialization" (deeplearning.ai)</li>
+                        <li>📚 Curso: "Deep Learning Specialization" (deeplearning.ai) - Q2 2026</li>
                         <li>💻 Projetos práticos com TensorFlow</li>
                         <li>🎯 Implementar rede neural para problema do banco</li>
                     </ul>
@@ -423,11 +659,16 @@
 
                 <div class="card">
                     <h3>🔄 5. MLOps e Produtização de Modelos (PRIORIDADE MÉDIA)</h3>
-                    <p><strong>Status:</strong> Básico</p>
+                    <p><strong>Status:</strong> Experiência com Streamlit, expandir para deployment completo</p>
                     <div class="progress-bar">
-                        <div class="progress-fill" style="width: 30%;"></div>
+                        <div class="progress-fill" style="width: 40%;"></div>
                     </div>
-                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <p style="margin-top: 10px;"><strong>✅ Você já tem:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Experiência com dashboards (Streamlit + Plotly)</li>
+                        <li>Código otimizado para produção (multiprocessing)</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>🔄 O que desenvolver:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px;">
                         <li>Versionamento de modelos (MLflow, DVC)</li>
                         <li>API deployment (FastAPI, Flask)</li>
@@ -439,105 +680,119 @@
                     <ul style="margin-left: 20px;">
                         <li>📚 Curso: "MLOps Fundamentals"</li>
                         <li>💻 Implementar pipeline de deploy no Itaú</li>
-                        <li>🎯 Criar API para modelo desenvolvido</li>
+                        <li>🎯 Criar API REST para um dos modelos desenvolvidos</li>
                     </ul>
                 </div>
 
                 <div class="card">
-                    <h3>📝 6. NLP - Processamento de Linguagem Natural (PRIORIDADE MÉDIA)</h3>
-                    <p><strong>Status:</strong> Básico</p>
+                    <h3>📝 6. NLP - Processamento de Linguagem Natural (PRIORIDADE BAIXA)</h3>
+                    <p><strong>Status:</strong> Para consolidar após algoritmos supervisionados</p>
                     <div class="progress-bar">
-                        <div class="progress-fill" style="width: 35%;"></div>
+                        <div class="progress-fill" style="width: 25%;"></div>
                     </div>
-                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <p style="margin-top: 10px;"><strong>✅ Você já tem:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Vetorização e embeddings (experiência com clustering de texto)</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>🔄 O que desenvolver:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px;">
                         <li>NLTK e SpaCy avançado</li>
                         <li>Transformers e BERT</li>
                         <li>Sentiment analysis</li>
                         <li>Named Entity Recognition (NER)</li>
-                        <li>Topic modeling (LDA)</li>
                     </ul>
                     <p style="margin-top: 10px;"><strong>Ações:</strong></p>
                     <ul style="margin-left: 20px;">
-                        <li>📚 Curso: "NLP with Python" (Coursera)</li>
+                        <li>📚 Curso: "NLP with Python" (Coursera) - Q2 2026</li>
                         <li>💻 Projeto de análise de sentimento no banco</li>
-                        <li>🎯 Estudar modelos de linguagem (LLMs)</li>
                     </ul>
                 </div>
 
                 <div class="card">
                     <h3>💼 7. Business Acumen e Comunicação de Resultados (PRIORIDADE ALTA)</h3>
-                    <p><strong>Status:</strong> Em desenvolvimento</p>
+                    <p><strong>Status:</strong> Boa base, continuar desenvolvendo</p>
                     <div class="progress-bar">
-                        <div class="progress-fill" style="width: 55%;"></div>
+                        <div class="progress-fill high" style="width: 65%;"></div>
                     </div>
-                    <p style="margin-top: 10px;"><strong>O que desenvolver:</strong></p>
+                    <p style="margin-top: 10px;"><strong>✅ Você já demonstrou:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>Storytelling com dados</li>
-                        <li>Visualização de dados avançada (Tableau, Power BI)</li>
-                        <li>Apresentação de insights para stakeholders</li>
-                        <li>Entendimento de métricas de negócio do setor bancário</li>
-                        <li>Tradução de problemas de negócio para problemas de dados</li>
+                        <li>Criação de dashboards interativos e visuais (Streamlit + Plotly)</li>
+                        <li>Capacidade de traduzir problemas técnicos em soluções práticas</li>
+                        <li>5 projetos com impacto mensurável</li>
+                    </ul>
+                    <p style="margin-top: 10px;"><strong>🔄 O que desenvolver:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Storytelling com dados mais avançado</li>
+                        <li>Visualização de dados com Power BI / Tableau</li>
+                        <li>Apresentações para stakeholders executivos</li>
+                        <li>Documentação técnica de projetos</li>
                     </ul>
                     <p style="margin-top: 10px;"><strong>Ações:</strong></p>
                     <ul style="margin-left: 20px;">
                         <li>📚 Livro: "Storytelling with Data"</li>
-                        <li>💻 Criar dashboards executivos</li>
-                        <li>🎯 Apresentar resultados em reuniões técnicas</li>
+                        <li>💻 Criar apresentações dos projetos desenvolvidos</li>
+                        <li>🎯 Apresentar resultados em reuniões técnicas do time</li>
                     </ul>
                 </div>
 
                 <div class="card" style="background: #e3f2fd; border-left-color: #2196F3;">
-                    <h3>🎯 Plano de Ação - Próximos 12 Meses</h3>
+                    <h3>🎯 Plano de Ação - Próximos 8 Meses</h3>
                     
-                    <h4 style="color: #1976d2; margin-top: 20px;">Q4 2025 (Out - Dez)</h4>
+                    <h4 style="color: #1976d2; margin-top: 20px;">Q4 2025 (Nov - Dez) - FOCO IMEDIATO</h4>
                     <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>✅ Aprofundar conhecimentos em estatística (curso + prática)</li>
-                        <li>✅ Dominar métricas de avaliação de modelos</li>
-                        <li>✅ Desenvolver 2 projetos completos de ML no banco</li>
-                        <li>✅ Estudar XGBoost e LightGBM</li>
+                        <li>✅ <strong>Estatística:</strong> Completar curso de Statistics for Data Science</li>
+                        <li>✅ <strong>ML Supervisionado:</strong> Iniciar Machine Learning Specialization (Andrew Ng)</li>
+                        <li>✅ <strong>Métricas:</strong> Dominar métricas de classificação e regressão</li>
+                        <li>✅ <strong>Prática:</strong> Kaggle - 1-2 competições simples</li>
+                        <li>✅ <strong>Banco:</strong> Buscar projeto de modelo preditivo no Itaú</li>
                     </ul>
 
-                    <h4 style="color: #1976d2; margin-top: 20px;">Q1 2026 (Jan - Mar)</h4>
+                    <h4 style="color: #1976d2; margin-top: 20px;">Q1 2026 (Jan - Mar) - CONSOLIDAÇÃO</h4>
                     <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>🎯 Curso de Machine Learning Specialization (Andrew Ng)</li>
-                        <li>🎯 Participar de 2 competições Kaggle</li>
-                        <li>🎯 Implementar pipeline de MLOps no projeto</li>
-                        <li>🎯 Apresentar resultados para gestão</li>
+                        <li>🎯 <strong>ML:</strong> Finalizar Andrew Ng course + implementar todos os algoritmos</li>
+                        <li>🎯 <strong>XGBoost/LightGBM:</strong> Dominar gradient boosting</li>
+                        <li>🎯 <strong>Kaggle:</strong> 2 competições mais avançadas</li>
+                        <li>🎯 <strong>MLOps:</strong> Implementar API com FastAPI para modelo</li>
+                        <li>🎯 <strong>Portfolio:</strong> Documentar projetos no GitHub + Medium</li>
                     </ul>
 
-                    <h4 style="color: #1976d2; margin-top: 20px;">Q2 2026 (Abr - Jun)</h4>
+                    <h4 style="color: #1976d2; margin-top: 20px;">Q2 2026 (Abr - Jun) - PREPARAÇÃO FINAL</h4>
                     <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>🎯 Iniciar estudos em Deep Learning</li>
-                        <li>🎯 Desenvolver projeto de NLP</li>
-                        <li>🎯 Criar portfólio técnico (GitHub + Medium)</li>
-                        <li>🎯 Preparação para processo de efetivação</li>
+                        <li>🎯 <strong>Deep Learning:</strong> Iniciar DL Specialization</li>
+                        <li>🎯 <strong>NLP:</strong> Projeto de NLP no banco (se houver oportunidade)</li>
+                        <li>🎯 <strong>Business:</strong> Apresentações técnicas para equipe</li>
+                        <li>🎯 <strong>Preparação:</strong> Mock interviews e estudo de casos</li>
+                        <li>🎯 <strong>Processo:</strong> <strong>Candidatura para Cientista de Dados 1</strong></li>
                     </ul>
+                </div>
 
-                    <h4 style="color: #1976d2; margin-top: 20px;">Q3 2026 (Jul - Set)</h4>
+                <div class="highlight-box">
+                    <h3>🎖️ Diferenciais Competitivos</h3>
+                    <p><strong>Você já possui experiências que te destacam:</strong></p>
                     <ul style="margin-left: 20px; margin-top: 10px;">
-                        <li>🎯 Certificação em Data Science (opcional)</li>
-                        <li>🎯 Mentoria com Cientista de Dados sênior</li>
-                        <li>🎯 Processo seletivo para Cientista de Dados 1</li>
-                        <li>🎯 Contribuir para comunidade (palestras/artigos)</li>
+                        <li>✨ <strong>5 projetos reais</strong> desenvolvidos em apenas 5 meses</li>
+                        <li>✨ <strong>Experiência diversificada:</strong> clustering, séries temporais, associação, anomalias</li>
+                        <li>✨ <strong>Produção:</strong> código otimizado com multiprocessing</li>
+                        <li>✨ <strong>Visualização:</strong> dashboards interativos profissionais</li>
+                        <li>✨ <strong>Cloud:</strong> experiência com AWS Athena</li>
+                        <li>✨ <strong>Versatilidade:</strong> background em fullstack + data science</li>
                     </ul>
                 </div>
 
                 <div class="card" style="background: #fff9c4; border-left-color: #FFC107;">
                     <h3>💡 Recursos de Aprendizado Recomendados</h3>
                     
-                    <h4 style="margin-top: 15px;">📚 Cursos Online</h4>
+                    <h4 style="margin-top: 15px;">📚 Cursos Online (Prioridade)</h4>
                     <ul style="margin-left: 20px;">
-                        <li>Machine Learning Specialization - Andrew Ng (Coursera)</li>
-                        <li>Deep Learning Specialization - deeplearning.ai</li>
-                        <li>Statistics for Data Science - Udemy</li>
-                        <li>MLOps Fundamentals - DataCamp</li>
-                        <li>Natural Language Processing - Coursera</li>
+                        <li><strong>URGENTE:</strong> Machine Learning Specialization - Andrew Ng (Coursera)</li>
+                        <li>Statistics for Data Science - Udemy (começar esta semana)</li>
+                        <li>Deep Learning Specialization - deeplearning.ai (Q2 2026)</li>
+                        <li>MLOps Fundamentals - DataCamp (Q1 2026)</li>
                     </ul>
 
                     <h4 style="margin-top: 15px;">📖 Livros</h4>
                     <ul style="margin-left: 20px;">
-                        <li>"Hands-On Machine Learning" - Aurélien Géron</li>
+                        <li>"Hands-On Machine Learning" - Aurélien Géron (referência principal)</li>
                         <li>"Estatística Prática para Cientistas de Dados" - Peter Bruce</li>
                         <li>"The Hundred-Page Machine Learning Book" - Andriy Burkov</li>
                         <li>"Storytelling with Data" - Cole Nussbaumer Knaflic</li>
@@ -545,10 +800,10 @@
 
                     <h4 style="margin-top: 15px;">💻 Plataformas de Prática</h4>
                     <ul style="margin-left: 20px;">
-                        <li>Kaggle - Competições e datasets</li>
-                        <li>LeetCode / HackerRank - Algoritmos</li>
-                        <li>GitHub - Portfólio e contribuições</li>
-                        <li>Medium / Dev.to - Escrita técnica</li>
+                        <li>Kaggle - 4-5 competições até Jun 2026</li>
+                        <li>GitHub - Documentar os 5 projetos do banco + novos projetos</li>
+                        <li>Medium - Escrever sobre os projetos desenvolvidos</li>
+                        <li>LeetCode (opcional) - Algoritmos e estruturas de dados</li>
                     </ul>
                 </div>
             </div>
@@ -562,13 +817,25 @@
                         <div class="timeline-content">
                             <h4>Data Engineer (Estagiário)</h4>
                             <p class="period">Itaú Unibanco | Jun 2025 - Presente</p>
-                            <p>Desenvolvimento de pipelines de dados em Python, análise e transformação de grandes volumes de dados, criação de modelos de clusterização e vetorização, automação de processos com IA e integração de agentes inteligentes.</p>
+                            <p><strong>Principais Realizações:</strong></p>
+                            <ul style="margin-left: 20px; margin-top: 10px;">
+                                <li>Desenvolveu <strong>5 projetos de Machine Learning</strong> com impacto direto em operações</li>
+                                <li>Implementou sistema de análise de reincidência de alertas com <strong>KMeans, DBSCAN e Isolation Forest</strong></li>
+                                <li>Criou analisador de séries temporais com <strong>Prophet</strong> para sugestão de thresholds</li>
+                                <li>Aplicou algoritmos de associação (<strong>Apriori, FP-Growth</strong>) para análise de padrões</li>
+                                <li>Desenvolveu dashboards interativos com <strong>Streamlit e Plotly</strong></li>
+                                <li>Otimizou código com <strong>multiprocessing</strong> para grandes volumes de dados</li>
+                                <li>Trabalhou com <strong>AWS Athena</strong> para queries em big data</li>
+                            </ul>
                             <div class="tech-stack">
                                 <span class="tech-badge">Python</span>
                                 <span class="tech-badge">Pandas</span>
-                                <span class="tech-badge">Machine Learning</span>
-                                <span class="tech-badge">IA</span>
-                                <span class="tech-badge">Clusterização</span>
+                                <span class="tech-badge">Scikit-learn</span>
+                                <span class="tech-badge">Prophet</span>
+                                <span class="tech-badge">Streamlit</span>
+                                <span class="tech-badge">AWS Athena</span>
+                                <span class="tech-badge">Clustering</span>
+                                <span class="tech-badge">Time Series</span>
                             </div>
                         </div>
                     </div>
@@ -663,11 +930,11 @@
         <footer>
             <p><strong>Marcelo N. Aggio</strong> | Data Engineer @ Itaú Unibanco</p>
             <p style="margin-top: 10px; font-size: 0.9em;">
-                🎯 Objetivo: Cientista de Dados 1 | 💻 Apaixonado por Python, ML e IA<br>
-                📍 Vila Aurora - Jaraguá, São Paulo, BR | 📧 Conecte-se no LinkedIn
+                🎯 Objetivo: Cientista de Dados 1 em 2026 | 💻 Especialista em Python, ML e Séries Temporais<br>
+                📊 5 Projetos de ML em Produção | ⚡ 75% Preparado para o Próximo Nível
             </p>
             <p style="margin-top: 15px; font-size: 0.8em; opacity: 0.8;">
-                PDI atualizado em Outubro de 2025
+                PDI atualizado em Outubro de 2025 | Baseado em projetos reais e resultados mensuráveis
             </p>
         </footer>
     </div>
