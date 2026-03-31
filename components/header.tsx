@@ -25,7 +25,7 @@ export function Header() {
           </div>
           <div>
             <p className="text-muted-foreground">Meta</p>
-            <p className="font-medium mt-1">Arquiteto de Soluções Sr.</p>
+            <p className="font-medium mt-1">Arquiteto de Soluções</p>
           </div>
           <div>
             <p className="text-muted-foreground">Atualizado</p>
